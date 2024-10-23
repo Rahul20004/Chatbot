@@ -25,7 +25,7 @@ st.set_page_config(
 )
 
 # setting up header
-st.header("GemBot - Your Personal AI Assistant")
+st.header("RahulGPT - Ask me anything 😉")
 # st.title
 
 # input
