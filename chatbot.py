@@ -19,7 +19,7 @@ def get_gemini_response(question):
 
 # setting up streamlit app
 st.set_page_config(
-    page_title = "GemBot",
+    page_title = "RahulGPT",
     layout = "wide",
     initial_sidebar_state = "expanded"
 )
@@ -35,4 +35,4 @@ question = st.text_input("Ask your Question")
 if st.button("Submit Your Question"):
     response = get_gemini_response(question)
     st.write("**YOU:**", question)
-    st.write("**GEMBOT:**", response)
+    st.write("**RahulGPT:**", response)
